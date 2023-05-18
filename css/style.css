@@ -511,6 +511,10 @@ img {
 
 .pictures-link {
   display: block;
+
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pictures-link:hover,
@@ -673,7 +677,7 @@ img {
   transition: opacity 500ms linear, visibility 500ms linear;
 }
 
-.backdrop.is-hiden {
+.backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -697,6 +701,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   width: 24px;
   height: 24px;
   background: var(--border-color);
