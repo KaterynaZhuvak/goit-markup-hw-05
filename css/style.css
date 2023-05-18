@@ -134,9 +134,7 @@ img {
   padding: 24px 0;
   display: block;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link::after {
@@ -151,9 +149,7 @@ img {
   border-radius: 2px;
   opacity: 0;
 
-  transition-property: opacity;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover::after,
@@ -173,9 +169,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-adress:hover,
@@ -291,11 +285,6 @@ img {
   margin-bottom: 8px;
 }
 
-.information-icon {
-  /* width: 64px;
-  height: 64px; */
-}
-
 .description-list {
   display: flex;
   align-items: center;
@@ -395,9 +384,7 @@ img {
   border-radius: 50%;
   background-color: var(--accent-color);
 
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .profession {
@@ -513,9 +500,7 @@ img {
 .pictures-link {
   display: block;
 
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pictures-link:hover,
