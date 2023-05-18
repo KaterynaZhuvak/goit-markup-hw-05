@@ -147,7 +147,7 @@ img {
   bottom: -1px;
   width: 100%;
   height: 4px;
-  background-color: #404bbf;
+  background-color: var(--hover-color);
   border-radius: 2px;
   opacity: 0;
 
@@ -406,11 +406,11 @@ img {
 
 .worker-list-link:hover,
 .worker-list-link:focus {
-  background-color: #404bbf;
+  background-color: var(--hover-color);
 }
 
 .worker-list-icon {
-  fill: #f4f4fd;
+  fill: var(--pale-accent-color);
 }
 
 /* -------ІКОНКИ КОМПАНІЙ------- */
@@ -444,12 +444,12 @@ img {
 
 .icon-link:hover .icon-image,
 .icon-link:focus .icon-image {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 .icon-link:hover,
 .icon-link:focus {
-  color: #404bbf;
+  color: var(--hover-color);
   border: 1px solid var(--hover-color);
 }
 
@@ -561,8 +561,8 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #4d5ae5;
-  color: #f4f4fd;
+  background: var(--accent-color);
+  color: var(--pale-accent-color);
   padding: 40px 32px;
   font-weight: 400;
   letter-spacing: 0.02em;
@@ -720,9 +720,9 @@ img {
 
 .btn-modal:hover,
 .btn-modal:focus {
-  background-color: #404bbf;
+  background-color: var(--hover-color);
   border: none;
-  fill: #ffffff;
+  fill: var(--main-white-color);
 }
 
 .close-btn {
