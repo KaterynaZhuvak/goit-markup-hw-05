@@ -125,7 +125,6 @@ img {
 
 .nav-link {
   position: relative;
-  color: #404bbf;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -140,9 +139,6 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.naw-item {
-  color: #404bbf;
-}
 
 .nav-link::after {
   position: absolute;
@@ -181,12 +177,12 @@ img {
 
 .contact-adress:hover,
 .contact-adress:focus {
-  color: var(--hover-color);
+  color: #404bbf;;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--hover-color);
+  color: #404bbf;
 }
 
 .main-header-container {
